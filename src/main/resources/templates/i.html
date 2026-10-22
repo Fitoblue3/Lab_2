@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>i</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <nav>
+        <a th:href="@{/s}">S</a>
+        <a th:href="@{/o}">O</a>
+        <a th:href="@{/l}">L</a>
+        <a th:href="@{/i}">I</a>
+        <a th:href="@{/d}">D</a>
+    </nav>
+    <section class="text">
+        <h1>I - Segregación de la interfaz (Interface Segregation)</h1>
+        <p>Es mejor contar con varias interfaces pequeñas y específicas que con una sola interfaz grande y general.
+            Los clientes no deben verse obligados a implementar métodos que no usan.</p>
+    </section>
+
+</body>
+</html>
